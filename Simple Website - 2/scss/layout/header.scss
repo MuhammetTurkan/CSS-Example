@@ -1,0 +1,76 @@
+/* Header Start */
+.header{
+    background:linear-gradient(to right bottom,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)) ,
+        url("../images/bg.jpg") no-repeat top center;
+    height: 100vh;
+    &-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 70px 100px;
+
+        &-logo img{
+            width: 250px;
+            height: 250px;
+        }
+        &-menu ul li{
+            display: inline-block;
+        }
+        &-menu ul li a{
+            display: block;
+            padding: 15px 20px;
+            letter-spacing: 0.05rem;
+            transition: .3s all;
+        }
+        &-menu ul li a:hover{
+            color: #a3bc;
+        }
+    }
+    &-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+       &-heading{
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            text-align: center;
+            margin-top: 20px;
+            align-items: center;
+        }
+        &-heading h1{
+            font-size: 56px;
+            letter-spacing: 0.05rem;
+        }
+        &-heading p{
+            font-size: 26px;
+            letter-spacing: 0.05rem;
+        }
+        &-heading a{
+            display: block;
+            height: 50px;
+            width: 150px;
+            background-color: #fff;
+            text-align: center;
+            line-height: 50px;
+            color: #000;
+            margin-top: 20px;
+            border-radius: 50px;
+            transition: .3s all;
+            backface-visibility: hidden;
+        }
+        
+        &-heading a:hover{
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        }
+        &-heading a:active{
+            transform: translateY(-1px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+        
+        }
+    }
+}
+
+/* Header end */

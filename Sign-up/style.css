@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.signup-forum {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: url(indir.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+}
+
+.signup-forum h1 {
+    margin-top: 100px;
+    color: rgb(78, 230, 32);
+    font-size: 40px;
+}
+
+.signup-forum input {
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+}
+
+.txt{
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.btn{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: rgb(31, 116, 228);
+    border-radius: 45px;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+}
+
+.btn:hover{
+    transform: scale(0.95);
+    background-color: #fff;
+    color: rgb(31, 116, 228);
+}
+
+.signup-forum a{
+    text-decoration: none;
+    color: rgb(78, 230, 32);
+    font-size: 18px;
+    transition: 0.8s;
+    display: block;
+}
